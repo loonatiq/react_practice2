@@ -3,7 +3,8 @@ import HandIcon from "./HandIcon";
 import HandButton from './HandButton';
 import Button from './Button';
 import { compareHand, generateRandomHand } from './utils';
-
+import './App.css';
+import './HandIcon.css';
 
 const INIT_VALUE = 'rock';
 
@@ -54,27 +55,36 @@ function App() {
 
   return (
     <>
-    <div>
-      <Button onClick={handleClearButton}>RESET</Button>
-    </div>
-    <div>
+    <div className='board'>
+    <div className='title'>Rock, Scissors, Paper</div>
+    <div className='result'>
       {compareHand(hand,otherHand)}
     </div>
-    <div>
+    <div className='rspResult'>
+      <div className = 'hand'>
       <HandIcon value = {hand} />
-    VS
+      </div>
+        <h1>VS</h1>
+      <div className = 'otherHand'>
       <HandIcon value = {otherHand} />
+      </div>
     </div>
+    <div className='handBtn'>
     <HandButton value = "rock" onClick = {handleButtonClick}/>
     <HandButton value = "scissors" onClick = {handleButtonClick}/>
     <HandButton value = "paper" onClick = {handleButtonClick}/>
+    </div>
     <div>
-    <input type="number" value={bet} onChange={handleBetChanger}></input>
+    <input className='bettingBox' type="number" value={bet} onChange={handleBetChanger}></input>
     </div>
     <h1>점수</h1>
     <h1>{score} : {otherScore}</h1>
+    <div>
+      <Button onClick={handleClearButton}>RESET</Button>
+    </div>
     <h2>기록</h2>
     <h2>{gameHistory.join(', ')}</h2>
+    </div>
     </> 
   );
 }

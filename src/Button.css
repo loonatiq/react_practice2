@@ -1,8 +1,9 @@
 .Buttons {
   color: #ebebeb;
-  background-color: #f78c8c;
+  background-color: #68334cd7;
   font-weight: bold;
   border-radius: 20px;
-  border: solid 2px #f72d2d;
+  border: solid 2px #d63070;
   padding: 10px;
+  cursor: pointer;
 }

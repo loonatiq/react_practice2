@@ -1,0 +1,13 @@
+.rspResult .hand {
+  background-color: #53367a;
+  border: solid 2px #b36cf5;
+  padding: 50px;
+  border-radius: 50%;
+}
+
+.rspResult .otherHand {
+  background-color: #6b6b6bd7;
+  border: solid 2px #e0e0e0;
+  padding: 50px;
+  border-radius: 50%;
+}

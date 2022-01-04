@@ -1,0 +1,42 @@
+h1 {
+  margin: 5px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bettingBox {
+  background-color: #bbbbbb;
+  border: none;
+  font-weight: bold;
+  width: 25px;
+  margin: 10px;
+}
+
+.result {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.rspResult {
+  display: flex;
+  align-items: center;
+}
+
+.rspResult h1 {
+  margin: 10px;
+}
+
+.handBtn {
+  display: flex;
+}
