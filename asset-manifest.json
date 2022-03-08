@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_practice2_rspgame/static/css/main.fb5448f5.css",
+    "main.js": "/react_practice2_rspgame/static/js/main.47213388.js",
+    "static/media/scissor.svg": "/react_practice2_rspgame/static/media/scissor.6096875e32afe995be0527d53ae2d2b0.svg",
+    "static/media/rock.svg": "/react_practice2_rspgame/static/media/rock.24f8e25552cb945e3f250a32608ab133.svg",
+    "static/media/paper.svg": "/react_practice2_rspgame/static/media/paper.19c16065ce3bbe6fe3fd4f07c0dd2f45.svg",
+    "index.html": "/react_practice2_rspgame/index.html",
+    "main.fb5448f5.css.map": "/react_practice2_rspgame/static/css/main.fb5448f5.css.map",
+    "main.47213388.js.map": "/react_practice2_rspgame/static/js/main.47213388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb5448f5.css",
+    "static/js/main.47213388.js"
+  ]
+}
